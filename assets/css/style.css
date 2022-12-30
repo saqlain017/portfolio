@@ -225,29 +225,29 @@ nav button i{
 .my_projects a:hover{
     color: #6d56c1;
 }
-#project_websites .project_body{
+#project_all .project_body{
     border: 1px solid aliceblue;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 10px 0;
 }
-#project_websites .project_body img{
+/* #project_all .project_body img{
         border: 1px solid aliceblue;
-}
-#project_websites .project_body .project_content{
+} */
+#project_all .project_body .project_content{
         width: 100%;
         padding-left: 100px;
 }
-#project_websites .project_body .project_content h4{
+#project_all .project_body .project_content h4{
     font-size: 20px;
 }
-#project_websites .project_body .project_content p{
+#project_all .project_body .project_content p{
     font-size: 15px;
 }
-#project_websites .project_body .project_content hr{
+#project_all .project_body .project_content hr{
     width: 80%;
 }
-
 /* Contact Us */
 .contact_us{
     background: linear-gradient(54deg,rgb(74 76 179) 34%,hsl(0deg 34% 71%));
@@ -301,7 +301,10 @@ footer{
 }
 
 /* Canvas Body */
-
+.canvas{
+    opacity: 0.9;
+    background: linear-gradient(54deg, rgb(74, 76, 179) 34%, rgb(206, 156, 156));
+}
 .canvasbody a{
     text-decoration: none;
     color: #0a0a0a;
@@ -396,10 +399,10 @@ footer{
     color: white;
     opacity: 1;
 }
-#project_websites .project_body .project_content h4{
+#project_all .project_body .project_content h4{
     font-size: 16px;
 }
-#project_websites .project_body .project_content p{
+#project_all .project_body .project_content p{
     font-size: 12px;
 }
 }
@@ -488,22 +491,23 @@ footer{
     .canvas{
         width: 300px !important;
     }
-        #project_websites .project_body {
+
+    #project_all .project_body {
         border: 1px solid aliceblue;
         display: flex;
         align-items: center;
         flex-direction: column;
         gap: 40px;
     }
-    #project_websites .project_body img{
+    #project_all .project_body img{
         border: none;
         width: 100px;
     }
-    #project_websites .project_body .project_content{
+    #project_all .project_body .project_content{
         padding-left: 0;
         text-align: center;
     }
-    #project_websites .project_body .project_content hr{
+    #project_all .project_body .project_content hr{
         margin: 15px auto;
     }
 }
@@ -570,7 +574,7 @@ footer{
     .canvas{
         width: 250px !important;
     }
-    #project_websites .project_body .project_content p{
+    #project_all .project_body .project_content p{
         font-size: 12px;
     }
 }
